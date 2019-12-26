@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Psico</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="api_key_android">AIzaSyAXrER8yM8BpcxKDFdV_P0FEmZvIen_cnY</string>
+    <string name="hasil"><p>Hasil yang ditamplikan \n
+                            Tidak sepenuhnaya benar \n
+                            Bila ingin mengetahui lebih lanjut \n
+                            silahkan pergi ke Rumah sakit
+    </p></string>
+
+</resources>

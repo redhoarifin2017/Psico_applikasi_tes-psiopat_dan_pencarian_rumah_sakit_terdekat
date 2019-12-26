@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_highest_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Diagnosa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/hasil"
+            android:paddingLeft="3dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:paddingTop="5dp"
+             />
+
+        <TextView
+            android:text="Hasil Anda :"
+            android:layout_width="500dp"
+            android:paddingLeft="3dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textScore"
+            android:background="@color/red"
+            android:textColor="#fff"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+        <Button
+            android:text="Coba Lagi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button"
+            android:onClick="onClick" />
+        <Button
+            android:layout_width="170dp"
+            android:text="Cari Rumahsakit"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="rst"/>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
